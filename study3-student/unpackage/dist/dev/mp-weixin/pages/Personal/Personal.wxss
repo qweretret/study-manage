@@ -1,0 +1,44 @@
+
+.content {
+	width: 100%;
+	margin: 30rpx auto;
+	background: green;
+}
+.top {
+	width: 650rpx;
+	height: 300rpx;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.left {
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 50%;
+	/* background: white; */
+}
+.left image {
+	width: 150rpx;
+	height: 150rpx;
+	border-radius: 50%;
+}
+.right {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	margin-left: 30rpx;
+}
+.right text {
+	margin-bottom: 10rpx;
+}
+.edit {
+	width: 150rpx;
+	height: 50rpx;
+	background: white;
+	border-radius: 10rpx;
+	margin-left: 50rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+

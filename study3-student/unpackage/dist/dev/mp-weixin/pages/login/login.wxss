@@ -1,0 +1,112 @@
+
+.logo {
+	width: 400rpx;
+	height: 400rpx;
+	background: #ccc;
+	margin: 100px auto;
+	border-radius: 50%;
+	position: relative;
+}
+.login {
+	width: 350rpx;
+	height: 100rpx;
+	margin: 100px auto;
+	background: #28d094;
+	color: white;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+}
+.popup {
+	width: 610rpx;
+	height: 720rpx;
+	background: #f2f2f2;
+	position: absolute;
+	top: 18%;
+	left: 10%;
+	border: 1px solid black;
+}
+.pop-top {
+	display: flex;
+	margin-top: 100rpx;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+}
+.pop-left {
+	width: 100%;
+	height: 50rpx;
+	/* height: 40rpx; */
+}
+.popactive {
+	color: #1890ff;
+	font-size: 14px;
+	border-bottom: 2px solid #1890ff;
+}
+.pop-right {
+	width: 50%;
+	height: 50rpx;
+	font-size: 12px;
+}
+.pop-content {
+	margin-top: 100rpx;
+}
+.pop-content .id {
+	width: 580rpx;
+	margin: 0 auto;
+}
+.pop-content .pwd {
+	width: 580rpx;
+	margin: 10px auto;
+}
+.pop-login button {
+	background: #1890ff;
+	color: white;
+	width: 580rpx;
+	height: 80rpx;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pop-bot {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+.pop-pwd {
+	width: 580rpx;
+	margin: 100rpx auto;
+}
+.pop-pwd .code {
+	display: flex;
+	margin-top: 20rpx;
+}
+.code button {
+	height: 37px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	margin-left: 20rpx;
+	background: white;
+	color: black;
+}
+.options {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20rpx;
+}
+.options text {
+	font-size: 12px;
+}
+.options ._span {
+	font-size: 12px;
+	text-decoration: none;
+	color: #1890ff;
+	margin-right: 20px;
+	margin-top: 5rpx;
+}
+

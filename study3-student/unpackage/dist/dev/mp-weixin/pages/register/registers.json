@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "superwei-combox": "/uni_modules/superwei-combox/components/superwei-combox/superwei-combox",
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate"
+  }
+}

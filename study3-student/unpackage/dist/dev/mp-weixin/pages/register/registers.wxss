@@ -1,0 +1,58 @@
+
+.detail {
+	width: 700rpx;
+	margin: 10rpx auto;
+}
+.frame {
+	/* width: 650rpx; */
+	margin: 0 auto;
+	background: #D0E8EE;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10rpx;
+}
+.company {
+	display: flex;
+	align-items: center;
+	margin-top: 40rpx;
+	justify-content: center;
+}
+.company text {
+	margin-right: 30rpx;
+}
+.inputs {
+	width: 400rpx;
+}
+.inputsw {
+	width: 400rpx;
+	margin-right: 40rpx;
+}
+.gw {
+	display: flex;
+	align-items: center;
+	margin-top: 40rpx;
+	justify-content: center;
+}
+.gw text {
+	margin-right: 30rpx;
+}
+.time {
+	display: flex;
+	align-items: center;
+	margin-top: 40rpx;
+	justify-content: center;
+}
+.time text {
+	margin-right: 20rpx;
+}
+.prepare {
+	display: flex;
+	align-items: center;
+	margin-top: 20rpx;
+	justify-content: center;
+	margin-bottom: 20rpx;
+}
+.prepare text {
+	margin-right: 20rpx;
+}
+

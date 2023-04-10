@@ -1,0 +1,77 @@
+
+.content {
+	width: 700rpx;
+	margin: 0 auto;
+	background: #4D7AC6;
+	border-radius: 10rpx;
+}
+.frame {
+	width: 650rpx;
+	margin: 30rpx auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	color: white;
+	text-align: center;
+}
+.mslast,
+.msresult,
+.msscore,
+.mstm {
+	margin-top: 30rpx;
+}
+.mslast uni-combox,
+.msresult uni-combox {
+	color: black;
+}
+.mszj {
+	margin-top: 20rpx;
+	display: flex;
+	flex-direction: column;
+}
+.ipts {
+	width: 500rpx;
+	/* height: 50rpx; */
+	margin: 0 auto;
+}
+.imgs {
+	position: relative;
+}
+.imgs image {
+	width: 150rpx;
+	height: 100rpx;
+}
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 20;
+}
+.img {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.photo {
+	width: 150rpx;
+	/* height: 80rpx; */
+	border: 1px dotted white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.exam {
+	margin-top: 30rpx;
+}
+.btn {
+	margin-top: 30rpx;
+	width: 200rpx;
+	height: 80rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: gray;
+	border-radius: 10rpx;
+}
+

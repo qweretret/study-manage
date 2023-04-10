@@ -1,0 +1,11 @@
+
+.ClassContainer.data-v-702c3114 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40rpx;
+	width: 100%;
+	border-top: 1px solid #ccc;
+
+	/* background-color: red; */
+}
+

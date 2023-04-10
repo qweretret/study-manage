@@ -1,0 +1,181 @@
+<template>
+  <div>
+    <el-row>
+      <el-col :span="12" class=".el-col-frame-left">
+        <el-card class="box-card userInfo">
+          <div slot="header" class="userInfo-header clearfix">
+            <span>班级信息</span>
+          </div>
+          <el-row class="userInfo-body">
+            <el-col :span="12" class="userHead">
+              <image-upload v-model="user.head" model="base64" :size="128"></image-upload>
+              <div style="font-weight: bold"></div>
+            </el-col>
+            <el-col :span="12" class="info">
+              <div>
+                <label>班级名称:</label>
+                <span> {{ myClass.dbColumn_cid }}</span>
+              </div> 
+              <div>
+                <label>学生名字:</label>
+                <span> {{ user.name }}</span>
+              </div>
+              <div>
+                <label>专业:</label>
+                <span> {{ user.professional }}</span>
+              </div>
+
+              <div>
+                <label>手机号码:</label>
+                <span> {{ user.mobile }}</span>
+              </div>
+              <div>
+                <label>所属课程:</label>
+                <span> {{ myClass.dbColumn_courseid }}</span>
+              </div>
+
+              <div class="operation">
+                <el-select v-model="currentClassCid" placeholder="请选择">
+                  <el-option v-for="item in classList" :key="item.cid" :label="item.dbColumn_cid" :value="item.cid">
+                  </el-option>
+                </el-select>
+              </div>
+            </el-col>
+          </el-row>
+        </el-card>
+      </el-col>
+      <el-col :span="12" class="el-col-frame-right">
+        <el-card class="head_card">
+
+          <el-row>
+            <el-col :span="8" v-show="tableData" v-for="(i, index) in tableData" :key="i.id">
+              <el-card class="box-card userInfo title">
+                <el-avatar :size="120" fit="fill">
+                  <img :src="i.head" style="width:120px;">
+                </el-avatar>
+                <div>{{ index + 1 }}.{{ i.name }}</div>
+              </el-card>
+            </el-col>
+            <el-col v-show="!tableData.length" :span="24">
+              <el-card class="box-card userInfo title">
+                无学生
+              </el-card>
+            </el-col>
+          </el-row>
+        </el-card>
+      </el-col>
+
+      <el-col :span="24">
+        <el-card class="box-card userInfo">
+          <div id="statistical-chart" style="height: 300px"></div>
+          <el-button type="primary" @click="getSummarizeAll(1)">左滑动</el-button>
+          <el-button type="primary" @click="getSummarizeAll(-1)">右滑动</el-button>
+        </el-card>
+      </el-col>
+    </el-row>
+  </div>
+  <!-- <div id="main">
+
+		</div> -->
+</template>
+<script>
+import "echarts/lib/chart/bar";
+import api from "@/api/study/myclass2/myclass2.js";
+import imageUpload from "@/components/biz/imageUpload/imageUpload.vue";
+export default {
+  name: "myclass",
+  components: {
+    imageUpload,
+  },
+  data() {
+    return {
+      myClass: {},
+      user: {},
+      myclass: {},            //当前班级
+      currentClassCid: "",     //选中的班级cid
+      dateFlag0: 0,
+      classList: [],          //班级列表
+      SummarizeAll: {},
+      tableData: [],        //当前班级的全部学生
+    };
+  },
+  watch: {
+    // 选择班级时的cid 变化
+    currentClassCid(newVal, oldVal) {
+      this.classList.forEach(item => {
+        if (newVal === item.cid) {
+          this.myclass = item;
+        }
+      });
+      this.getStudengtList()
+      this.dateFlag=0;
+      this.getSummarizeAll();
+    }
+  },
+  methods: {
+    //初始化班级数据
+    // getClassOne() {
+    //   api.getClassOne({}, (response) => {
+    //     //this.myclass = response.data;
+    //     this.currentClassCid = this.myClass.cid;
+    //     // console.log(response);
+    //     //this.getSummarizeAll(0);
+    //     //this.getStudengtList();
+    //   });
+
+    //   api.getAllClass({}, (res) => {
+    //     this.classList = res.data;
+    //     console.log('班级列表', res);
+    //   })
+    // },
+
+    //获取学生列表
+    getStudengtList() {
+      let params = { cid: this.user.cid };
+      api.getStudentList(params, (response) => {
+        this.tableData = response.data;
+        console.log(this.tableData, "tableData");
+      });
+    },
+    //获取学生
+     getStudent() {
+      api.getStudent({}, (response) => {
+
+        this.user = response.data[0];
+        this.myClass = response.data[1];
+        this.currentClassCid = this.myClass.cid;
+        this.getStudengtList();
+      });
+      api.getAllClass({}, (res) => {
+        this.classList = res.data;
+        console.log('班级列表', res);
+      })
+    },
+
+  },
+
+  mounted() {
+    this.getClassOne();
+    this.getStudent();
+  },
+};
+</script>
+
+<style lang="scss" scoped="scoped">
+.el-col-frame-left {
+  background-color: rgb(212, 248, 248);
+}
+
+.head_card {
+  height: 302px !important;
+  overflow: auto;
+
+  .title {
+    text-align: center;
+  }
+}
+
+@import "~common/custom/css/common.scss";
+@import "~common/custom/css/main.scss";
+</style>
+

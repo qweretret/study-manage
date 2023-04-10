@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "自我评价",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar",
+    "calendar": "/components/calendar/calendar"
+  }
+}

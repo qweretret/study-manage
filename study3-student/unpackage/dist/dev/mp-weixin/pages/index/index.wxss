@@ -1,0 +1,70 @@
+
+page {
+	background: #eaeef9;
+	padding-bottom: 90rpx;
+	padding-top: 100rpx;
+}
+
+/* 	.new {
+		width: 700rpx;
+		height: 230rpx;
+		background: #21ab38;
+		display: flex;
+		flex-direction: column;
+		margin: 40rpx auto;
+		border-bottom-right-radius: 35rpx;
+		overflow: hidden;
+	} */
+.top {
+	width: 700rpx;
+	height: 230rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 40rpx auto;
+	border-bottom-right-radius: 35rpx;
+	background: #22ac38;
+	overflow: hidden;
+}
+.topc {
+	width: 700rpx;
+	height: 230rpx;
+	display: flex;
+	flex-direction: column;
+	margin: 40rpx auto;
+	border-bottom-right-radius: 35rpx;
+	overflow: hidden;
+}
+.title {
+	height: 50rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 25rpx;
+}
+.title-left {
+	font-size: 18px;
+	color: white;
+}
+.title-right {
+	font-size: 10px;
+	color: white;
+}
+.cot {
+	width: 650rpx;
+	/* padding-left: 25rpx; */
+	/* background: red; */
+	font-size: 12px;
+	margin: 0 auto;
+	color: white;
+	/* overflow: hidden; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	/*想省略几行就写几*/
+	-webkit-box-orient: vertical;
+}
+.new-bg {
+	background: gray;
+}
+

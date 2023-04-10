@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "stu-push-details": "/components/StuPushDetails/StuPushDetails",
+    "students": "/components/Class/Students"
+  }
+}

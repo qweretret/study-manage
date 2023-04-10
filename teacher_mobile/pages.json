@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages		
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/interface/interface",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/LearningPush/LearningPush",
+			"style": {
+				"navigationBarTitleText": "学习推送签收",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/DailySummary/DailySummary",
+			"style": {
+				"navigationBarTitleText": "每日总结",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "pagesB",
+		"pages": [{
+				"path": "feedback/feedback",
+				"style": {
+					"navigationBarTitleText": "每日反馈",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "interviewManagement/interviewManagement",
+				"style": {
+					"navigationBarTitleText": "面试点评",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "MyClass/MyClass",
+				"style": {
+					"navigationBarTitleText": "我的班级",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "selfAssessment/selfAssessment",
+				"style": {
+					"navigationBarTitleText": "自我评价",
+					"enablePullDownRefresh": false
+				}
+			}
+		]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

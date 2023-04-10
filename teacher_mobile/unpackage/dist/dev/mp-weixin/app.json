@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/interface/interface",
+    "pages/LearningPush/LearningPush",
+    "pages/DailySummary/DailySummary"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesB",
+      "pages": [
+        "feedback/feedback",
+        "interviewManagement/interviewManagement",
+        "MyClass/MyClass",
+        "selfAssessment/selfAssessment"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

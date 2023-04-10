@@ -1,0 +1,1 @@
+<view><view class="top"><view class="title"><view class="left"><text>{{"类型:"+list[0].thejobtype}}</text></view><view class="right"><text>{{list[0].chetime}}</text></view></view><view class="content"><text>{{list[0].content}}</text></view></view></view>

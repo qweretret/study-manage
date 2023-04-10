@@ -1,0 +1,108 @@
+
+page {
+	padding-bottom: 80rpx;
+}
+.swiper-item {
+	height: 245rpx;
+}
+.swiper-item ._img {
+	width: 100%;
+}
+.nav {
+	height: 100rpx;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+.nav .all {
+	width: 225rpx;
+	height: 70rpx;
+	border-radius: 10rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.uni-badge-left-margin {
+	position: absolute;
+	top: 10rpx;
+	right: 0;
+}
+.nav uni-data-select {
+	width: 225rpx;
+	height: 70rpx;
+}
+.all-hov {
+	background: #479d83;
+	color: white;
+}
+.article {
+	background: #e9edf9;
+	/* height: 300rpx; */
+	padding-top: 35rpx;
+	padding-bottom: 40rpx;
+}
+.article .frame {
+	width: 636rpx;
+	height: 259rpx;
+	background: #ffffff;
+	margin: 0 auto;
+	border-radius: 5rpx;
+	position: relative;
+	margin-top: 40rpx;
+	/* margin-bottom: 40rpx; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.title {
+	width: 500rpx;
+	font-size: 16px;
+	padding: 25rpx;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.title text:nth-child(2) {
+	font-size: 14px;
+}
+.cot {
+	width: 590rpx;
+	padding-left: 25rpx;
+	/* word-wrap: break-word; */
+	font-size: 14px;
+	color: #82b989;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	/*想省略几行就写几*/
+	-webkit-box-orient: vertical;
+}
+.pinfen {
+	width: 100rpx;
+	height: 40rpx;
+	position: absolute;
+	right: 0;
+	top: 25rpx;
+	background: #f1dddd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom-left-radius: 10rpx;
+	border-top-left-radius: 10rpx;
+	font-size: 10px;
+	color: #d44b4b;
+}
+.pinglun {
+	width: 590rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #939393;
+	margin: 15rpx auto;
+	font-size: 10px;
+}
+

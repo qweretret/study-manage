@@ -1,0 +1,26 @@
+
+.Students.data-v-3c49e30a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 250rpx;
+	height: 250rpx;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-top: none;
+	box-sizing: border-box;
+	/* background-color: skyblue; */
+}
+.StudentsIcon.data-v-3c49e30a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80rpx;
+	height: 80rpx;
+	background-color: #2b73af;
+	border-radius: 50%;
+	margin-bottom: 20rpx;
+	color: #baccd9;
+}
+

@@ -1,0 +1,135 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .ClassNameContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 724rpx;
+	height: 88rpx;
+	background-color: #F0F8FA;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+.active {
+	color: #FFCC00;
+}
+
+.text {
+	font-size: 12px;
+	color: #666;
+	margin-top: 5px;
+}
+
+.uni-px-5 {
+	padding-left: 10px;
+	padding-right: 10px;
+} */
+
+/* 	.uni-pb-5 {
+	padding-bottom: 10px;
+} */
+.selectContainer.data-v-04a21e8c {
+	position: relative;
+	margin-top: 20rpx;
+}
+.selectDown.data-v-04a21e8c {
+	width: 60%;
+	height: 50rpx;
+	margin: 0 auto;
+	border-radius: 10rpx;
+	border: 1px solid #ccc;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50rpx;
+	margin-bottom: 5rpx;
+	background-color: #ccc;
+}
+.selectedCard.data-v-04a21e8c {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	border: 1px solid #ccc;
+	border-radius: 10rpx;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 10rpx;
+}
+.selectedCard text.data-v-04a21e8c {
+	display: block;
+	margin-top: 20rpx;
+	text-align: center;
+}
+

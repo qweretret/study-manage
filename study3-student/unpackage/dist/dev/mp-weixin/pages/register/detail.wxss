@@ -1,0 +1,83 @@
+
+page {}
+.content {
+	width: 700rpx;
+	margin: 0 auto;
+	background: lightskyblue;
+	border-radius: 10rpx;
+}
+.name .ipt {
+	/* height: 50rpx; */
+	overflow: hidden;
+	word-wrap: break-word;
+	display: flex;
+	flex-wrap: wrap;
+}
+.name ._img {
+	width: 200rpx;
+	height: 100rpx;
+	/* background: yellow; */
+}
+.name .ipt text {
+	height: 100rpx;
+}
+.name {
+	margin-top: 30rpx;
+	/* margin-bottom: 40rpx; */
+}
+.frame {
+	width: 650rpx;
+	margin: 0 auto;
+	padding-top: 10rpx;
+}
+.xi {
+	margin-top: 30rpx;
+}
+.scale {
+	display: flex;
+	margin-top: 20rpx;
+	justify-content: space-between;
+}
+.scales {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 20rpx;
+}
+.scales text {
+	margin-bottom: 10rpx;
+}
+.scales uni-combox {
+	width: 80%;
+}
+.phone {
+	display: flex;
+	align-items: center;
+}
+.phone text {
+	/* margin-bottom: 10rpx; */
+}
+.xueli,
+.yqiu,
+.bzu,
+.miaos,
+.phone {
+	margin-top: 20rpx;
+}
+.xitwo {
+	display: flex;
+	margin-top: 20rpx;
+	/* justify-content: space-between; */
+}
+.xitwo .ipt {
+	width: 90%;
+}
+.xithree {
+	display: flex;
+	margin-top: 20rpx;
+	justify-content: space-between;
+}
+.xithree .ipt {
+	width: 90%;
+}
+

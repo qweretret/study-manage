@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "每日反馈",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar",
+    "calendar": "/components/calendar/calendar"
+  }
+}

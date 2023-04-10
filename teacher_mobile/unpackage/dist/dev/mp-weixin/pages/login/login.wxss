@@ -1,0 +1,120 @@
+
+page.data-v-b237504c {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.swiper-container.data-v-b237504c {
+	width: 674rpx;
+	height: 874rpx;
+	background-color: #D2D9DB;
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 40rpx;
+}
+.swiper-item.data-v-b237504c {
+	width: 100%;
+	height: 75%;
+	background-color: #6572CA;
+	border-radius: 10px;
+}
+.title.data-v-b237504c {
+	padding-top: 40rpx;
+}
+.title ._p.data-v-b237504c {
+	font-size: 18px;
+	color: #6572CA;
+}
+.title text.data-v-b237504c {
+	display: block;
+	color: #5D4865;
+	margin-top: 20rpx;
+}
+#btn.data-v-b237504c {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 160rpx;
+	left: 50%;
+	bottom: 60rpx;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 200rpx;
+	height: 72rpx;
+	background-color: #1A8BD4;
+	color: white;
+	font-size: 14px;
+}
+.login-container.data-v-b237504c {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 1;
+}
+.login-mouble.data-v-b237504c {
+	position: relative;
+	width: 520rpx;
+	height: 474rpx;
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 40rpx;
+}
+.LoginTitle.data-v-b237504c {
+	font-size: 40rpx;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30rpx;
+}
+.LoginInput.data-v-b237504c {
+	width: 480rpx;
+	height: 188rpx;
+	margin: 0 auto;
+	/* background-color: red; */
+}
+.LoginInput input.data-v-b237504c {
+	/* width: 100%; */
+	height: 50%;
+	border: 1rpx solid #ccc;
+	padding-left: 20rpx;
+}
+.LoginInput form input.data-v-b237504c:first-child {
+	border-bottom: none;
+}
+.LoginBtn.data-v-b237504c {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	width: 520rpx;
+	height: 112rpx;
+	/* border-top: 1px solid #ccc; */
+	/* background-color: red; */
+}
+.cancel.data-v-b237504c,
+.Login.data-v-b237504c {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	color: #CED1D4;
+}
+.cancel.data-v-b237504c {
+	border-right: 1px solid #ccc;
+	border-bottom-left-radius: 10px;
+}
+.Login.data-v-b237504c {
+	border-bottom-right-radius: 10px;
+}
+.cancel.data-v-b237504c:active,
+.Login.data-v-b237504c:active {
+	color: #666EE8;
+}
+

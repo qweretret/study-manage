@@ -1,0 +1,15 @@
+
+.edit {
+	width: 650rpx;
+	margin: 30rpx auto;
+}
+.data-select {
+	z-index: 10 !important;
+}
+.btn {
+	display: flex;
+}
+.btn button {
+	width: 40%;
+}
+

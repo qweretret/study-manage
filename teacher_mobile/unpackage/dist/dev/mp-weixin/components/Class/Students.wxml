@@ -1,0 +1,1 @@
+<view class="data-v-3c49e30a"><view data-event-opts="{{[['tap',[['getStudentInfo',['$event']]]]]}}" class="Students data-v-3c49e30a" bindtap="__e"><view class="StudentsIcon data-v-3c49e30a">{{''+infoAll+''}}</view><text class="data-v-3c49e30a">{{name}}</text></view></view>

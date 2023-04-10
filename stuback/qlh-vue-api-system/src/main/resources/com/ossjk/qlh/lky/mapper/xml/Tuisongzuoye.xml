@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ossjk.qlh.study.mapper.TuisongzuoyeMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.ossjk.qlh.study.entity.Tuisongzuoye">
+		<result column="id" property="id" />
+		<result column="sid" property="sid" />
+		<result column="tid" property="tid" />
+		<result column="thejobtype" property="thejobtype" />
+		<result column="content" property="content" />
+		<result column="subtime" property="subtime" />
+		<result column="chetime" property="chetime" />
+		<result column="whethertopush" property="whethertopush" />
+		<result column="crtm" property="crtm" />
+	</resultMap>
+
+	<!-- 通用查询结果列 -->
+	<sql id="Base_Column_List">
+		id,
+		sid,
+		tid,
+        thejobtype,
+		content,
+		subtime,
+		chetime,
+        whethertopush,
+        crtm
+	</sql>
+
+</mapper>

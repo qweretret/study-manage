@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "每日总结",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-badge": "/uni_modules/uni-badge/components/uni-badge/uni-badge",
+    "uni-data-select": "/uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "navbar": "/components/navbar/navbar"
+  }
+}

@@ -1,0 +1,44 @@
+
+page {
+	background: #b8b8c1;
+}
+.content {
+	width: 700rpx;
+	height: 1300rpx;
+	margin: 40rpx auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background: #E5B1D0;
+	border-radius: 10rpx;
+	padding-bottom: 30rpx;
+	color: white;
+}
+.frame {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 40rpx;
+}
+.ent {
+	width: 270rpx;
+	height: 80rpx;
+	background: skyblue;
+	border-radius: 15rpx;
+	/* margin-top: 30rpx; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.week {
+	display: flex;
+	align-items: center;
+	margin-top: 30rpx;
+}
+.texta {
+	width: 500rpx;
+	margin-top: 20rpx;
+}
+
